@@ -75,7 +75,7 @@ canvas.width = width;
 canvas.height = height;
 let ctx: CanvasRenderingContext2D = canvas.getContext("2d");
 
-let cols: number = 50;
+let cols: number = 130;
 let pixelSize: number = height / cols;
 let rows: number = Math.floor(width / pixelSize);
 let grid: Cell[][] = createGrid(cols, rows, true);
