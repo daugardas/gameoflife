@@ -1,0 +1,8 @@
+body {
+  padding: 0;
+  margin: 0;
+  /* background: black; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
